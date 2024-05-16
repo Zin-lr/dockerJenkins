@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Clone le référentiel GitHub
-                git 'https://github.com/Zin-lr/dockerJenkins.gitt'
+                git 'https://github.com/Zin-lr/dockerJenkins.git'
             }
         }
 
